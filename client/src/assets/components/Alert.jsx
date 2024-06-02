@@ -1,10 +1,10 @@
 import React from 'react'
 import {Alert} from "react-bootstrap";
 
-const Notify = ({variant="danger",msg}) => {
+const Notify = ({variant="danger", msg}) => {
   return (
    <>
-   <Alert variant={variant} style={{textAlign:"center", color:'white'}}>{msg}</Alert>
+   <Alert variant={variant} style={{textAlign:"center"}}>{msg}</Alert>
     </>
   );
 };
